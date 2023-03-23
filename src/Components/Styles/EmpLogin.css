@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'open Sans',sans-serif;
+    color:black;
+    width:100%;
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url("1.jpg");
+}
+
+/* .overlay{
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+} */
+.title{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    color: rgb(83, 83, 87);
+    padding-left: 20px;
+    
+}
+.container{
+    margin-top: 5rem;
+    margin-left: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color:rgb(253, 240, 220);  */
+    background:linear-gradient(0deg,transparent,rgba(229, 209, 153, 0.952),rgba(232, 211, 187, 0.861));
+     /* background:linear-gradient(0deg,rgba(153, 130, 97, 0.5),rgb(197, 193, 188));  */
+    height: 380px;
+    width:27rem; 
+     /* border: 0px solid rgb(244, 239, 239);  */
+   
+  
+ }
+.input{
+    margin-top: -3rem;
+    border: none;
+    color:white;
+    background-color: rgba(255,255,255,0.2);
+    border-bottom: 2px solid red;
+    padding:0.5rem;
+    display: block;
+    width:20rem;
+
+
+}
+input::placeholder{
+    color: #bebebe;
+}
+input::focus{
+    border:none;
+    outline:none;
+}
+ /* .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+   .btn:hover {
+    background-color: green;
+    color: white;
+  } */
+  .login-btns{
+    display: inline-block;
+    margin-right:2.3rem;
+  
+  }
+ 
+  .btn {
+  
+     margin-left:2rem;
+     padding-inline: 7.5px;
+    transition-duration: 0.4s;
+    width:90px;
+    height:50px;
+    border:1px solid white;
+  }
+  #btn-1{
+    width:90px;
+    padding-inline: 22px;
+  }
+  
+  .btn:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  .p{
+    color:rgb(204, 204, 217);
+    padding-left: 38px;
+  }
+  #lgbtn{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+  
+     margin-left: 7rem;
+
+
+  }
+  #link{
+    margin-left: 6rem;
+  }
+  #link:hover{
+    background: white;
+
+  }
+  #inp{
+    margin-top: -0.5rem;
+  }
