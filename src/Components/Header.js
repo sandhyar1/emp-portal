@@ -19,9 +19,9 @@ function Header() {
       </div>
       <ul className={`navbar-menu ${menuOpen ? "open" : ""}`}>
 
-        <li><Link className="link" to="/CeoConnect">CeoConnect</Link></li>
-        <li><Link className="link" to="/UnitNews">UnitNews</Link></li>
-        <li><Link className="link" to="/ContactForm">Contact</Link></li>
+        <li><Link className="link" to="/ceoConnect">CeoConnect</Link></li>
+        <li><Link className="link" to="/unitNews">UnitNews</Link></li>
+        <li><Link className="link" to="/contactForm">Contact</Link></li>
         <li><Link className="link" to="/profile">{AiOutlineUserAdd}</Link></li>
 
       </ul>

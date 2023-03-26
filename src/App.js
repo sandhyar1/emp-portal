@@ -21,25 +21,23 @@ function App() {
   return (
      <>
 
-     <BrowserRouter>
-      <Routes>
-      
-        <Route exact path="/"  element={<EmpLogin /> } />
-         <Route exact path="/Home" element={
-         <>
-         <Header />,
-         <Corousel />,
-         <UnitNews />,
-         <ContactForm />,
-         <CeoConnect />,
-         <Footer />,
-         <NoPage />,
-         </>
-      }
-      />
+     {/* <BrowserRouter>
+      <Routes> */}
+       <Header />
+        {/* <Route exact path="/"  element={<EmpLogin /> } /> */}
+         {/* <Route exact path="/header" element={<Header />} > */}
+         {/* <Route exact path="/corousel" element={<Corousel />} />
+         <Route exact path="/unitnews" element={ <UnitNews />} />
+          <Route exact path="/contactForm" element={<ContactForm />} />
+          <Route exact path="/ceoConnect" element={<CeoConnect />} />
+          <Route exact path="/footer" element={<Footer />} />
+         </Route> */}
          
-     </Routes>
-     </BrowserRouter> 
+          {/* <Route exact path="*" element= {<NoPage />} /> */}
+
+         
+     {/* </Routes>
+     </BrowserRouter>  */}
 
     </>
   )
